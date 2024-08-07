@@ -1,0 +1,276 @@
+
+#backgroundTwo{
+    background-color: antiquewhite;
+    font-family: monospace;
+    margin: 0;
+    /* size-adjust: 10px; */
+
+}
+
+#welcomeHead{
+    background-color: antiquewhite;
+}
+
+#blob1{
+    background-color: antiquewhite;
+    /* align-content:end; */
+    /* margin: 0; */
+    
+}
+#blob2{
+    background-color: aqua;
+    align-content: end;
+    text-align: center;
+    
+    
+}
+#greetingText{
+    font-size: 100px;
+}
+#blob3{
+    background: linear-gradient(to bottom, aqua, antiquewhite, snow);
+    height: 100vh;
+    align-content: end;
+    text-align: center;
+   
+}
+#subTitle{
+    /* font-size: 10vh; */
+    /* font-size: 10vmin; */
+    /* font-size: 70px; */
+    font-weight:bold;
+    /* text-align: center; */
+    text-align: center;
+    font-size: 42px;
+}
+#projectBlob{
+    /* align-content: center;
+    align-items: center; */
+    /* height: 90vh; */
+    /* margin 40; */
+    /* width: 100vw;
+    height: 90vh; */
+    /* min-height: 1pc; */
+    /* height: 48vh; */
+    /* width: 400px; */
+    margin: 50px;
+    padding: 50px;
+    /* float:none; */
+    /* float will enable how the box is seen */
+    /* float: left; */
+    /* min-height: 1pc; */
+    /* height: 1.9px;
+    max-height: 1.5px; */
+   
+    /* display: flex; */
+    /* border: 1pt dotted maroon; */
+    color: rgba(91, 7, 63, 0.644);
+    /* text-shadow: 10pt; */
+    
+  /* height: 35vh;  */
+    /* width: 100wh; */
+    /* min-width: 30px
+    width: 100lvw;
+    height: 100vh; */
+    /* min-width: 30px; */
+    /* flex: 1 1 50%; */
+    /* display: auto; */
+    /* padding:16vh; */
+    /* margin: 5; */
+    /* max-width: 35.9vh; */
+    /* display: 200px; */
+    
+    /* height: 35vh; */
+    /* flex-direction: row; */
+    /* padding: 19px; */
+    
+}
+#projectTitle{
+    /* this changes the length of title */
+    /* min-width: 40vh;
+    max-width: 100vh; */
+    font-size:3ex;
+}
+#projectText{
+    /* font-size: 100px; */
+    font-size: x-large;
+    /* font-style: normal; */
+    /* min-width: 35vh;
+    max-width: 100vh; */
+    /* height: auto; */
+    /* float: left;
+    width: 50%;
+    width: 10px;
+    padding: 10px; */
+    /* min-width: 40px; */
+    
+}
+/* .column {
+    font-size: 40px;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+} */
+/* Create two unequal columns that floats next to each other */
+.column {
+    float:none;
+  
+
+    /* This will put the photo into a frame */
+    /* padding:20px; */
+    /* Current height covers upto box size */
+    height: 90%;
+
+
+   
+  }
+  .left {
+    float: left;
+    /* margin: 1pc;
+    min-height: 10px; */
+    /* display: table; */
+    /* height: 90%; */
+    width: 100%;
+  }
+  .right {
+    /* align-content: center; */
+    float:right;
+    width: 100%;
+    /* height: 90%; */
+    /* margin: 100vh; */
+    /* margin-right: 100vh; */
+    /* text-align: center;
+    font-size: 25px; */
+    /* margin: 1px; */
+    /* width: 100px;
+    height: 100px; */
+    /* mar */
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    height: 1px;
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #image {
+     size: 100px;
+  }
+  img {
+    /* display:flow-root; */
+    /* margin: 10px; */
+    /* margin-block:; */
+
+    /* color: rgba(105, 68, 20, 0.493); */
+    /* The following changes the frame and the background */
+    border: 1pt dotted red;
+    width: 100%;
+    height: 200px;
+    /* height: 100; */
+    /* height: 100vh; */
+    
+    }
+/* paraText{
+    
+    
+} */
+
+/* #innerBlob{
+    size: 1px
+} */
+
+#collegeTitle{
+    /* color: maroon; */
+    
+    /* float: left; */
+    /* padding-left: 10px; */
+    /* font-size: 3vh; */
+    font-weight:bold;
+    color: maroon;
+    /* text-align: right; */
+    
+    
+}
+
+#collegeDesc{
+    /* float: right; */
+    /* font-size:small; */
+    /* color: maroon; */
+    /* padding-top: -15px; */
+    /* padding-bottom: 20px; */
+    /* padding-left: 25px; */
+    /* font-size: 3vh; */
+    font-weight:bold;
+    color: orange;
+    /* text-align: left; */
+}
+
+#projectedDate{
+    font-weight:bold;
+    color:rgba(0, 0, 0, 0.606);
+    /* float: right; */
+    /* pad to the right */
+    /* padding-left: 30%; */
+    /* padding-right: 30px; */
+
+
+}
+#topicSep{
+    /* height: 80%; */
+    /* width: 20%;
+    width: 100px */
+    width: 100px;
+    /* color: orange; */
+    /* padding-top: 10px; */
+    height: 9px;
+    border-width: 0;
+    background-color: rgba(255, 166, 0, 0.253);
+    /* stroke-linecap: round; */
+    
+    
+    /* height: 9; */
+
+}
+
+#educationBlob{
+    /* background: linear-gradient(to bottom, orange, maroon); */
+    /* border-radius: 5px; */
+    /* border-collapse: separate; */
+    /* border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px; */
+    /* border-color: limegreen; */
+    align-content: center;
+    margin: 50px;
+    /* padding: 50px; */
+    background: linear-gradient(to bottom,antiquewhite, #ffa600be 0%,#800000da 100%, antiquewhite);
+    /* margin: 50px; */
+    /* padding: 50px; */
+
+    text-align: left;
+    font-size: 30px;
+    padding: 100px;
+    /* display: block   ; */
+    /* max-width: 50vw;     */
+    /* padding-left: 25%; */
+    /* display: flex; */
+    /* display:ruby-base; */
+    /* border: 1pt dotted maroon; */
+    color: rgba(91, 7, 63, 0.644);
+    /* background-color: orange; */
+    text-shadow: 10pt;
+    /* padding: 30px; */
+
+}
+
+#textBlob{
+    /* border-radius: 9px; */
+    font-size: 30px;
+    text-align:start;
+    padding: 100px;
+    margin: 100px;
+    
+    
+}

@@ -3,8 +3,6 @@
     background-color: antiquewhite;
     font-family: monospace;
     margin: 0;
-    /* size-adjust: 10px; */
-
 }
 
 #welcomeHead{
@@ -13,16 +11,11 @@
 
 #blob1{
     background-color: antiquewhite;
-    /* align-content:end; */
-    /* margin: 0; */
-    
 }
 #blob2{
     background-color: aqua;
     align-content: end;
     text-align: center;
-    
-    
 }
 #greetingText{
     font-size: 100px;
@@ -41,55 +34,23 @@
     font-weight:bold;
     /* text-align: center; */
     text-align: center;
-    font-size: 42px;
+    font-size: 3em;
 }
 #projectBlob{
     /* align-content: center;
     align-items: center; */
-    /* height: 90vh; */
-    /* margin 40; */
-    /* width: 100vw;
-    height: 90vh; */
-    /* min-height: 1pc; */
-    /* height: 48vh; */
-    /* width: 400px; */
+
     margin: 50px;
     padding: 50px;
     /* float:none; */
     /* float will enable how the box is seen */
     /* float: left; */
-    /* min-height: 1pc; */
-    /* height: 1.9px;
-    max-height: 1.5px; */
-   
-    /* display: flex; */
-    /* border: 1pt dotted maroon; */
-    color: rgba(91, 7, 63, 0.644);
-    /* text-shadow: 10pt; */
-    
-  /* height: 35vh;  */
-    /* width: 100wh; */
-    /* min-width: 30px
-    width: 100lvw;
-    height: 100vh; */
-    /* min-width: 30px; */
-    /* flex: 1 1 50%; */
-    /* display: auto; */
-    /* padding:16vh; */
-    /* margin: 5; */
-    /* max-width: 35.9vh; */
-    /* display: 200px; */
-    
-    /* height: 35vh; */
-    /* flex-direction: row; */
-    /* padding: 19px; */
-    
 }
 #projectTitle{
     /* this changes the length of title */
     /* min-width: 40vh;
     max-width: 100vh; */
-    font-size:3ex;
+    font-size:2.5em;
 }
 #projectText{
     /* font-size: 100px; */
@@ -189,7 +150,8 @@
     /* padding-left: 10px; */
     /* font-size: 3vh; */
     font-weight:bold;
-    color: maroon;
+
+    color: rgb(48, 16, 16);
     /* text-align: right; */
     
     
@@ -267,10 +229,10 @@
 
 #textBlob{
     /* border-radius: 9px; */
-    font-size: 30px;
+    font-size: 3em;
     text-align:start;
-    padding: 100px;
-    margin: 100px;
+    padding: 2em;
+    margin: 2em;
     
     
 }

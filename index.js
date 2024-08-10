@@ -90,9 +90,9 @@ p2 = createProjectBlob()
 // p2.newText.textContent = "hi"
 // p2.newTitle.textContent = "pro"
 setTitle(p2, "Bamboo Classification")
-setText(p2, `In a group of three, We worked in picture sampling given our environment. We were restricted due to blacksburg
-    lacking in Bamboo. Accomplishing our goal of 60% accuracy in detecting bamboo. Given CNN to classify
-    not bamboo vs bamboo photos taken in campus and online.`)
+setText(p2, `In a group of three, we worked in picture sampling given our environment. I worked on documentation and data collecting. We were restricted due to Blacksburg's
+    lack of Bamboo. We were able to accomplishing our goal of 60% accuracy in detecting bamboo. By using a CNN to classify
+    not bamboo vs bamboo photos taken in campus and online. Written in Python and resources such as Google Colab to run LLM. `)
 
 // p2.setText = "hello";
 // p2.setTitle = "New Project View view";
@@ -102,8 +102,8 @@ setText(p2, `In a group of three, We worked in picture sampling given our enviro
 p3 = createProjectBlob()
 setTitle(p3, "Personal Video Server")
 
-setText(p3, `In a group of 2, I dealt with multhreads to accompolish multiple users to intract with web app, written in C.
-    Consisted of password tokens, HTML fallback, webplayer, and testing done through fuzzy software.`)
+setText(p3, `In a group of 2, were task to deploy website application. I dealt with multi-threads to accomplish multiple users interaction with the web page.
+    Consisted of password tokens, HTML fallback, webplayer, and testing done through fuzzy software. Written in C.`)
 
 // p3.textContent = "Hello Again"
 // p3.newText.textContent
@@ -113,12 +113,13 @@ setText(p3, `In a group of 2, I dealt with multhreads to accompolish multiple us
 // setText(p7, "a new world of threads")
 p6 = createProjectBlob()
 setTitle(p6, "3D Range-KD Tree")
-setText(p6, `Learning about Range and KD Trees took time and reworking and differeniating between 2D vs 3D trees.
-    Using Java and test cases to reach and accomplish the hybrid that consists of: Memory in _, Speed in_, and _ _ _`)
-    p4 = createProjectBlob()
-    setTitle(p4, "Data Visualization")
-    setText(p4, `In a team of 3, I was in charge of testing and fixing bugs in our program. Written in Java.
-        Unit testing was essential to completing our project. By gathering data such as csv files and displaying through MVC view in Java.`)
+setText(p6, `Learned about Range and KD Trees took time and reworking and differeniating between 2D vs 3D trees.
+    Using Java and test cases to reach and accomplish the hybrid that consists of Query time: O(n1/2 log n), Space complexity: O(n log n), and Construction time: O(n log n).
+    Future plan, understanding fractual cascading for  Query time O(n1/2log n) to O(n1/2)`)
+p4 = createProjectBlob()
+setTitle(p4, "Data Visualization")
+setText(p4, `In a team of 3, I was in charge of testing and fixing bugs in our program. Written in Java.
+    Unit testing was essential to completing our project. By gathering data such as csv files and displaying through MVC view in Java.`)
 p8 = createProjectBlob()
 setTitle(p8, "Sand Game/ Particle Simulator")
 setText(p8, `First programming game, with the help of Greenfoot, an integrated environment.

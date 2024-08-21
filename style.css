@@ -131,7 +131,7 @@
 .column {
     float:right;
   
-
+    /* padding: 100px; */
     /* This will put the photo into a frame */
     /* padding:20px; */
     /* Current height covers upto box size */
@@ -147,6 +147,7 @@
     /* display: table; */
     /* height: 90%; */
     /* width: 100%; */
+    /* margin: 1px; */
     width: 48%;
   }
   .right {

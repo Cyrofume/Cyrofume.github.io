@@ -1,7 +1,5 @@
 /* display background color black on navbar scroll */
-.navbarScroll.navbarDark {
-    background-color: black;
-}
+
 /* hero background image */
 .bgimage {
     height:100vh;
@@ -54,4 +52,20 @@
 #footer {
     background-color: #808080;
     text-align: center;
+}
+
+.navbarDark {
+    background-color: black;
+    background: #000000;
+}
+.nav-item {
+    margin-left: auto;
+}
+
+/* .navbar-collapseHome{
+    background-color: rgb(15, 12, 5);
+} */
+
+.li {
+    padding: 0;
 }
